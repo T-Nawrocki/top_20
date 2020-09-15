@@ -18,7 +18,7 @@ class SongsContainer extends Component {
   render() { 
     return (
       <>
-        <SongsList />
+        <SongsList songs={this.state.songs} />
         <SongDetails />
       </>
     );
